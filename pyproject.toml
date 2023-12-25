@@ -7,8 +7,15 @@ license = "MIT"
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = ">=3.9,<3.12"
+flask = "^3.0.0"
+apache-skywalking = {extras = ["all"], version = "^1.0.1"}
 
+
+[[tool.poetry.source]]
+name = "mirrors"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple/"
+priority = "default"
 
 [build-system]
 requires = ["poetry-core"]
