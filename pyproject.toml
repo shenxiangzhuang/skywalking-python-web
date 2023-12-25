@@ -17,6 +17,11 @@ name = "mirrors"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple/"
 priority = "default"
 
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^3.6.0"
+mypy = "^1.8.0"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
