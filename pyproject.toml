@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "skywalking-python-web"
+version = "0.1.0"
+description = "Skywalking for Python Web Deployment"
+authors = ["Xiangzhuang Shen <datahonor@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
